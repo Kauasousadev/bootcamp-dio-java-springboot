@@ -1,4 +1,4 @@
-package Collections.listadetarefa;
+package Collections.List.listadetarefa;
 
 public class Tarefa {
     private

@@ -1,4 +1,4 @@
-package Collections.listadetarefa;
+package Collections.List.listadetarefa;
 
 import java.util.List;
 import java.util.ArrayList;

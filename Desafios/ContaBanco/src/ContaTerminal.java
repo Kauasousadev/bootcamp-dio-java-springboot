@@ -20,5 +20,6 @@ public class ContaTerminal {
         saldo =  ler.nextFloat();
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", o número da sua conta é " + numero + ", e seu saldo de R$" + saldo + " já está disponível!");
+        ler.close();
     }
 }

@@ -13,5 +13,6 @@ public class Condicionais {
         } else {
             System.out.println("Quem?");
         }
+        ler.close();
     }
 }

@@ -18,6 +18,7 @@ public class Contador {
         } catch (ParametrosInvalidosException e) {
             e.printStackTrace();
         }
+        ler.close();
     }
 
     static void contador(int num1, int num2) throws ParametrosInvalidosException{
