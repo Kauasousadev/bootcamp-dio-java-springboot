@@ -29,6 +29,5 @@ public class Contador {
         }else{
             throw new ParametrosInvalidosException();
         }
-
     }
 }
