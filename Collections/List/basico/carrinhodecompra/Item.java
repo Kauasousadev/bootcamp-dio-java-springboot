@@ -1,4 +1,4 @@
-package Collections.List.carrinhodecompra;
+package Collections.List.basico.carrinhodecompra;
 
 public class Item {
     private
