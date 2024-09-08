@@ -1,6 +1,5 @@
 package Collections.Set.ordenacao;
 
-import java.util.Objects;
 import java.util.Comparator;
 
 public class Produto implements Comparable<Produto>{
