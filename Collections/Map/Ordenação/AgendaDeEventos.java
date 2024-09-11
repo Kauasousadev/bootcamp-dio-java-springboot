@@ -4,11 +4,10 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.io.PrintStream;
 import java.time.LocalDate;
 
 public class AgendaDeEventos {
-    private Map<LocalDate, Evento> agenda = new HashMap();
+    private Map<LocalDate, Evento> agenda = new HashMap<>();
 
     public AgendaDeEventos() {
     }
