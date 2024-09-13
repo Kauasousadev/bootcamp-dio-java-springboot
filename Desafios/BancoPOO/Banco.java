@@ -65,7 +65,27 @@ public class Banco {
         System.out.println("Criando conta");
         System.out.println("Código da conta: ");
         String codigo = ler.nextLine();
-        usuario = new Conta(pesquisarClientes(nome), codigo, 0D);
+        System.out.println("Tipo da conta:");
+        System.out.println("1 - Corrente");
+        System.out.println("2 - Poupança");
+        System.out.println("3 - Universitária");
+        System.out.println("4 - Salário");
+        System.out.println("Escolha o tipo da conta: ");
+        int tipoConta = ler.nextInt();
+        switch (tipoConta) {
+            case 1:
+            usuario = new Conta(pesquisarClientes(nome), codigo, 0D);
+                break;
+            case 2:
+            usuario = new Poupanca(pesquisarClientes(nome), codigo, 0D);
+                break;
+            //case 3:
+            //usuario = new Universitaria(pesquisarClientes(nome), codigo, 0D);
+            //    break;
+            //case 4:
+            //usuario = new Salario(pesquisarClientes(nome), codigo, 0D);
+            //    break;
+        }
         contas.put(codigo, usuario);
     }
 

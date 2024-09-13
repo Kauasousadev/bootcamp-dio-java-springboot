@@ -38,12 +38,14 @@ public class Conta {
         System.out.println("Transferência efetuada com sucesso, novo saldo de: " + saldo);
     }
 
-    public void sacar(Double valorSaque){
+    public boolean sacar(Double valorSaque){
         if (valorSaque <= 0 || valorSaque > saldo) {
             System.out.println("Valor de saque inválido.");
+            return false;
         }else{
             saldo -= valorSaque;
             System.out.println("Saque efetuado com sucesso, novo saldo de: " + saldo);
+            return true;
         }
     }
 
