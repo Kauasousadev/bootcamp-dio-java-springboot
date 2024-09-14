@@ -82,9 +82,9 @@ public class Banco {
             case 3:
             usuario = new Universitaria(pesquisarClientes(nome), codigo, 0D);
                 break;
-            //case 4:
-            //usuario = new Salario(pesquisarClientes(nome), codigo, 0D);
-            //    break;
+            case 4:
+            usuario = new Salario(pesquisarClientes(nome), codigo, 0D);
+                break;
         }
         contas.put(codigo, usuario);
     }
