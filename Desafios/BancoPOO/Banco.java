@@ -79,9 +79,9 @@ public class Banco {
             case 2:
             usuario = new Poupanca(pesquisarClientes(nome), codigo, 0D);
                 break;
-            //case 3:
-            //usuario = new Universitaria(pesquisarClientes(nome), codigo, 0D);
-            //    break;
+            case 3:
+            usuario = new Universitaria(pesquisarClientes(nome), codigo, 0D);
+                break;
             //case 4:
             //usuario = new Salario(pesquisarClientes(nome), codigo, 0D);
             //    break;

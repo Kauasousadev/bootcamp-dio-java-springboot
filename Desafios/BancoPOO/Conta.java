@@ -16,12 +16,14 @@ public class Conta {
         System.out.println(this.getSaldo());
     }
 
-    public void depositar(Double valorDeposito){
+    public boolean depositar(Double valorDeposito){
         if (valorDeposito <= 0) {
             System.out.println("Valor inválido! Valor do depósito precisa ser maior que zero.");
+            return false;
         }else{
             saldo += valorDeposito;
             System.out.println("Deposito efetuado com sucesso, novo saldo de: " + saldo);
+            return true;
         }
 
     }
