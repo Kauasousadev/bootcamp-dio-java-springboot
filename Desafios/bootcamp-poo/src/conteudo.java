@@ -1,7 +1,7 @@
-public class conteudo {
+public abstract class conteudo {
     protected String titulo;
     protected String descricao;
-    public static final int XP_PADRAO = 10;
+    public static final Double XP_PADRAO = 10d;
 
-
+    public abstract double calcularXp();
 }
